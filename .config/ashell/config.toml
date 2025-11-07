@@ -1,0 +1,10 @@
+[modules]
+left = [["Clock", "Workspaces"]]
+center = [["WindowTitle", "MediaPlayer"]]
+right = ["Settings"]
+
+[settings]
+lock_cmd = "hyprlock"
+shutdown_cmd = "systemctl poweroff"
+reboot_cmd = "systemctl reboot"
+suspend_cmd = "systemctl suspend"
